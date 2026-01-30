@@ -1,86 +1,203 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Basics - EHR Guide</title>
   <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-    span.s3 {-webkit-text-stroke: 0px #000000}
-    span.Apple-tab-span {white-space:pre}
-    ol.ol1 {list-style-type: decimal}
-    ul.ul1 {list-style-type: disc}
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 30px;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #2c5282;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      padding: 15px 20px;
+      background-color: #e6f2ff;
+      border-left: 5px solid #4299e1;
+    }
+
+    h3 {
+      font-size: 1.4em;
+      color: #2c5282;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      padding-left: 10px;
+      border-left: 3px solid #63b3ed;
+    }
+
+    p {
+      margin: 15px 0;
+      padding: 0 10px;
+      font-size: 1em;
+    }
+
+    b {
+      color: #2d3748;
+      font-weight: 600;
+    }
+
+    ul, ol {
+      margin: 15px 0;
+      padding-left: 50px;
+    }
+
+    li {
+      margin: 10px 0;
+      padding: 5px 0;
+      line-height: 1.8;
+    }
+
+    ol li {
+      background-color: #fff;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    ul li {
+      color: #2d3748;
+    }
+
+    ul li::marker {
+      color: #4299e1;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 25px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #e2e8f0;
+    }
+
+    .underline {
+      text-decoration: underline;
+      color: #2c5282;
+      font-weight: 600;
+    }
+
+    .info-box {
+      background-color: #fff;
+      border: 2px solid #cbd5e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .indent {
+      padding-left: 40px;
+      color: #4a5568;
+      font-style: italic;
+    }
+
+    .section-header {
+      background-color: #edf2f7;
+      padding: 10px 15px;
+      margin: 20px 0 10px 0;
+      border-radius: 5px;
+      font-weight: 600;
+      color: #2d3748;
+    }
   </style>
 </head>
 <body>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 21.3px Arial; -webkit-text-stroke: #000000"><span class="s1">The Basics </span></h2>
-<p class="p2"><span class="s1">The Corner uses athenahealthOne as its primary Emergency Health Record (EHR). This EHR is much more simplistic than Epic, but slightly less intuitive. In this section, you will find some tips and tricks to navigate the EHR. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><b>Setting Up: </b><b></b></span></p>
-<p class="p2"><span class="s1">On your first day, you will need to set up an account with Athena at the front desk. The staff at the front will help you to set up a username and password. This is an online EHR that can be accessed from anywhere (inside or outside) the clinic, from your school or personal computer. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">After logging in, select ‘Corner Health Center’ as the department. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">To view your schedule, click on “Calendar” in the tool bar and select “Today’s appointments”. Then adjust the date as appropriate to scroll down and see the panel of all the physicians that are scheduled that day. </span></p>
-<img src="login.png" alt="Login Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<img src="Calendar.png" alt="Schedule Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><b>How to document: </b><b></b></span></p>
-<p class="p2"><span class="s1">When a patient arrives, they will check in, which initiates the visit. Once the patient is roomed and their vitals are recorded, this will be reflected in the EHR by the highlighted name on the schedule turning blue. This portion is called the intake. Once the MA has finished with the intake, the name will change from blue to green. Once the name is green, you can enter the patient chart and click the green button in the top right hand corner that says “Go to Exam”. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">This will take you to a new page with sections labeled for HPI, ROS, physical exam, and assessment and plan. </span></p>
-<img src="go-to-exam.png" alt="Opening documentation Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<img src="HPI-PE-ROS.png" alt="Encounter view" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s2">Assessment &amp; Plan</span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">At the end of an encounter, you will write an assessment and plan. To add a problem, click on “+ diagnosis” at the top of the page. You can then add further description in the appropriate text box. </span></p>
-<img src="A-and-P.png" alt="A&P Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">To add new medications, click on the ‘+’ next to the problem that you created/diagnosis that you added. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s2">Orders</span><span class="s1"> </span></p>
-<p class="p2"><span class="s1">As a student you are able to pend orders, but not sign them. To pend an order, use the ‘+’ sign described above and search for the lab or medication. Once you add the order it is automatically pended, do not click “sign orders”. </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">Once pended, notify your preceptor so that they can enter the system and sign the orders. Two people cannot edit the A&amp;P at the same time, so it works best for you to exit this section of the chart while they are signing the orders. </span></p>
-<img src="Orders.png" alt="Orders Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s2">Internal referrals</span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">Internal referrals refer to referrals placed to departments within Corner Health Clinic. The following departments may be referred to: </span></p>
-<ul class="ul1">
-  <li class="li2"><span class="s3"></span><span class="s1">Nutrition</span></li>
-  <li class="li2"><span class="s3"></span><span class="s1">Social Work </span></li>
-  <li class="li2"><span class="s3"></span><span class="s1">Psychiatry </span></li>
-  <li class="li2"><span class="s3"></span><span class="s1">Nursing</span></li>
-  <li class="li2"><span class="s3"></span><span class="s1">Case management </span></li>
-</ul>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">Here are step-by-step instructions to place an internal referral: </span></p>
-<ol class="ol1">
-  <li class="li2"><span class="s3"></span><span class="s1">Select the purple icon with 3 lines in the upper right corner</span></li>
-  <li class="li2"><span class="s3"></span><span class="s1">Select ‘create patient case’ from the dropdown menu </span></li>
-  <img src="patient-case.png" alt="Referral Instructions" style="max-width: 500px; height: auto; display: block; margin: 0 auto;">
-  <li class="li2"><span class="s3"></span><span class="s1">Once in the patient case, fill in the following fields as appropriate </span></li>
-</ol>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">Sender: Clinical staff, </span></p>
-<p class="p2"><span class="s1">Provider: The writing provider will automatically prepopulate based on your login</span></p>
-<p class="p2"><span class="s1">Subject: counseling/housing/nutrition </span></p>
-<p class="p2"><span class="s1">Description: 21 yo with… </span></p>
-<p class="p2"><span class="s1">Data entry completed</span></p>
-<p class="p2"><span class="s1">Click save </span></p>
-<p class="p3"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">Next, re-enter the patient case and select the proper delivery </span></p>
-<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span>Counseling = SWOD</span></p>
-<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span>Nursing = any nurse</span></p>
-<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span>Nutrition = Kate Share</span></p>
+  <h2>The Basics</h2>
+  <p>The Corner uses athenahealthOne as its primary Emergency Health Record (EHR). This EHR is much more simplistic than Epic, but slightly less intuitive. In this section, you will find some tips and tricks to navigate the EHR.</p>
+
+  <h3>Setting Up:</h3>
+  <p>On your first day, you will need to set up an account with Athena at the front desk. The staff at the front will help you to set up a username and password. This is an online EHR that can be accessed from anywhere (inside or outside) the clinic, from your school or personal computer.</p>
+
+  <p>After logging in, select 'Corner Health Center' as the department.</p>
+
+  <p>To view your schedule, click on "Calendar" in the tool bar and select "Today's appointments". Then adjust the date as appropriate to scroll down and see the panel of all the physicians that are scheduled that day.</p>
+
+  <img src="login.png" alt="Login Instructions">
+  <img src="Calendar.png" alt="Schedule Instructions">
+
+  <h3>How to document:</h3>
+  <p>When a patient arrives, they will check in, which initiates the visit. Once the patient is roomed and their vitals are recorded, this will be reflected in the EHR by the highlighted name on the schedule turning blue. This portion is called the intake. Once the MA has finished with the intake, the name will change from blue to green. Once the name is green, you can enter the patient chart and click the green button in the top right hand corner that says "Go to Exam".</p>
+
+  <p>This will take you to a new page with sections labeled for HPI, ROS, physical exam, and assessment and plan.</p>
+
+  <img src="go-to-exam.png" alt="Opening documentation Instructions">
+  <img src="HPI-PE-ROS.png" alt="Encounter view">
+
+  <div class="section-header">
+    <span class="underline">Assessment & Plan</span>
+  </div>
+
+  <p>At the end of an encounter, you will write an assessment and plan. To add a problem, click on "+ diagnosis" at the top of the page. You can then add further description in the appropriate text box.</p>
+
+  <img src="A-and-P.png" alt="A&P Instructions">
+
+  <p>To add new medications, click on the '+' next to the problem that you created/diagnosis that you added.</p>
+
+  <div class="section-header">
+    <span class="underline">Orders</span>
+  </div>
+
+  <p>As a student you are able to pend orders, but not sign them. To pend an order, use the '+' sign described above and search for the lab or medication. Once you add the order it is automatically pended, do not click "sign orders".</p>
+
+  <p>Once pended, notify your preceptor so that they can enter the system and sign the orders. Two people cannot edit the A&P at the same time, so it works best for you to exit this section of the chart while they are signing the orders.</p>
+
+  <img src="Orders.png" alt="Orders Instructions">
+
+  <div class="section-header">
+    <span class="underline">Internal referrals</span>
+  </div>
+
+  <p>Internal referrals refer to referrals placed to departments within Corner Health Clinic. The following departments may be referred to:</p>
+
+  <ul>
+    <li>Nutrition</li>
+    <li>Social Work</li>
+    <li>Psychiatry</li>
+    <li>Nursing</li>
+    <li>Case management</li>
+  </ul>
+
+  <p>Here are step-by-step instructions to place an internal referral:</p>
+
+  <ol>
+    <li>Select the purple icon with 3 lines in the upper right corner</li>
+    <li>Select 'create patient case' from the dropdown menu</li>
+  </ol>
+
+  <img src="patient-case.png" alt="Referral Instructions">
+
+  <ol start="3">
+    <li>Once in the patient case, fill in the following fields as appropriate</li>
+  </ol>
+
+  <div class="info-box">
+    <p><b>Sender:</b> Clinical staff</p>
+    <p><b>Provider:</b> The writing provider will automatically prepopulate based on your login</p>
+    <p><b>Subject:</b> counseling/housing/nutrition</p>
+    <p><b>Description:</b> 21 yo with…</p>
+    <p><b>Data entry completed</b></p>
+    <p><b>Click save</b></p>
+  </div>
+
+  <p>Next, re-enter the patient case and select the proper delivery</p>
+
+  <div class="indent">
+    <p>Counseling = SWOD</p>
+    <p>Nursing = any nurse</p>
+    <p>Nutrition = Kate Share</p>
+  </div>
 </body>
 </html>
